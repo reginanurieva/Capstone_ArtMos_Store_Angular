@@ -1,19 +1,25 @@
 h1 {
     font-family: 'Kalam', cursive;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
+    /* opacity: 0.5; */
+    z-index: 1;
     /* margin-left: 90px; */
 }
 
 .header {
-    text-align: left;
-   
-    margin-bottom: 50%;
-    display: grid;
+    text-align: center;
+    background: url(../../assets/slide1.webp) bottom center;
+    width: 100%;
+    background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+    /* margin-bottom: 50%; */
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(10px, auto);
-    margin: auto;
+    margin: auto; */
 }
 
 p {
@@ -23,7 +29,11 @@ p {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(87, 85, 85);
+  }
+
+  a:hover {
+      color: black;
   }
 
   img {
