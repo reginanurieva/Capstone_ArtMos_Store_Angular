@@ -9,6 +9,10 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  toggleSidebar(){
+    document.getElementById("sidebar").classList.toggle('active');
+  }
+
   ngOnInit() {
   }
 
