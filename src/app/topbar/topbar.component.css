@@ -1,0 +1,51 @@
+#apple-navbar {
+    background: rgba(0, 0, 0, 0.8);
+    /* display: flex; */
+    overflow: hidden;
+    height: 40px;
+    margin: 0 -25px;
+    background-color: black;
+  }
+  
+  #navbar-container{
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  li {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin-left: 20px;
+    font-family: sans-serif;
+    margin-right: 40px;
+    width: auto;
+    font-size: 10px;
+    font-weight: 75;
+    /* opacity: .65; */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover{
+    color: gray;
+  }
+  
+  #apple{
+    margin-top: 10px;
+    height: 23px;
+    width: 36px;
+    margin-left:-193px;
+    position: relative;
+  }
+  
+  .fa-apple{
+    color: white;
+    font-size: 20px;
+    margin-top: 9px;
+  }
