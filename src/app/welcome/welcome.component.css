@@ -9,11 +9,11 @@ h1 {
 
 .header {
     text-align: center;
-    background: url(../../assets/slide1.webp) bottom center;
+    /* background: url(../../assets/slide1.webp) bottom center; */
     width: 100%;
     background-repeat: no-repeat;
   background-size: contain;
-  opacity: 0.5;
+  /* opacity: 0.5; */
     /* margin-bottom: 50%; */
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
