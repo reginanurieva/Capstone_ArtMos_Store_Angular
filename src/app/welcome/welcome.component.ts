@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy} from '@angular/core';
+declare function require(path: string);
 
 @Component({
   selector: 'app-welcome',
@@ -8,23 +9,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent {
 
-  constructor(){}
+  img4 = require('../../assets/slide4.webp');
+  img2 = require('../../assets/slide2.webp');
+  img1 = require('../../assets/slide1.webp');
 
-  // let myIndex: number = 0;
-  // carousel();
-  
-  // function carousel() {
-  //     var i;
-  //     var x = document.getElementsByClassName("mySlides");
-  //     for (i = 0; i < x.length; i++) {
-  //         x[i].display = "none";
-  //     }
-  //     myIndex++;
-  //     if (myIndex > x.length) {
-  //         myIndex = 1;
-  //     }
-  //     x[myIndex - 1].display = "block";
-  //     setTimeout(carousel, 2000); // Change image every 2 seconds
-  // }
+  arrImg = [this.img1, this.img2, this.img4];
+
+  currentImg: any;
+
+
+  styleVar: any;
+  constructor(){
+    this.carousel()
+  }
+
+// myIndex:number = 0;
+//   carousel() {
+//     var style = {display:'block'};
+//       var i;
+//       var x = document.getElementsByClassName("mySlides");
+//       for (i = 0; i < x.length; i++) {
+//         if (this.myIndex > x.length) {this.myIndex = 1}
+//         {
+//           setInterval(this.carousel, 2000); 
+//           this.myIndex++;    
+//           this.styleVar = {display: 'block'};
+//         }
+//       this.styleVar = {display: 'none'};
+//       }
+//   }
+
+ carousel(){
+     setInterval(() => {
+      let i = Math.floor(Math.random() * Math.floor(3));
+      this.currentImg = this.arrImg[i];
+     }, 2000);
+ }
 }
 

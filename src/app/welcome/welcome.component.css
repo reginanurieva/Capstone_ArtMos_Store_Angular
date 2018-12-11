@@ -1,32 +1,4 @@
-h1 {
-    font-family: 'Kalam', cursive;
-    font-size: 80px;
-    text-align: left;
-    /* opacity: 0.5; */
-    z-index: 1;
-    /* margin-left: 90px; */
-}
 
-.header {
-    text-align: center;
-    /* background: url(../../assets/slide1.webp) bottom center; */
-    width: 100%;
-    background-repeat: no-repeat;
-  background-size: contain;
-  /* opacity: 0.5; */
-    /* margin-bottom: 50%; */
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(10px, auto);
-    margin: auto; */
-}
-
-p {
-    font-size: 70px;
-    font-weight: 600;
-    text-align: left;
-}
 a {
     text-decoration: none;
     color: rgb(87, 85, 85);
@@ -35,10 +7,11 @@ a {
   a:hover {
       color: black;
   }
+ img {
+     max-height: 600px;
+     margin-top: 50px;
+ }
 
-  img {
-      width: 740px;
-      height: 580px;
-      margin-right: 80%;
-      margin-bottom: 50%;
-  }
+ .active {
+     display: none;
+ }
