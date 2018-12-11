@@ -40,9 +40,14 @@ export class WelcomeComponent {
 //   }
 
  carousel(){
+   let count = 0;
+   this.currentImg = this.arrImg[count];
      setInterval(() => {
-      let i = Math.floor(Math.random() * Math.floor(3));
-      this.currentImg = this.arrImg[i];
+      count++;
+      if (count >= this.arrImg.length) {
+        count = 0;
+      }
+      this.currentImg = this.arrImg[count];
      }, 2000);
  }
 }
