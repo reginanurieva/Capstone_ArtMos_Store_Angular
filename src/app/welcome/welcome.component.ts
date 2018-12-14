@@ -48,7 +48,7 @@ export class WelcomeComponent {
         count = 0;
       }
       this.currentImg = this.arrImg[count];
-     }, 2000);
+    }, 5000);
  }
 }
 

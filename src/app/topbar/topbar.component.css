@@ -1,6 +1,6 @@
-#top-navbar {
+/* #top-navbar {
     background: rgba(0, 0, 0, 0.8);
-    /* display: flex; */
+
     overflow: hidden;
     height: 40px;
     margin: 0 -25px;
@@ -9,7 +9,7 @@
   
   #navbar-container{
     width: 100%;
-    /* text-align: center; */
+  
   
   }
   
@@ -27,6 +27,6 @@
   
   a:hover{
     color: gray;
-  }
+  } */
 
   

@@ -6,19 +6,21 @@ import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+// import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TopbarComponent } from './topbar/topbar.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
+    // NavbarComponent,
     FooterComponent,
     WelcomeComponent,
-    TopbarComponent
+    TopbarComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
