@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { AboutComponent } from './about/about.component';
+import { NatureComponent } from './nature/nature.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     WelcomeComponent,
     TopbarComponent,
-    AboutComponent
+    AboutComponent,
+    NatureComponent
   ],
   imports: [
     BrowserModule,

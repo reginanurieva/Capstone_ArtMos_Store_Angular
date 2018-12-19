@@ -6,6 +6,7 @@ import { FooterComponent }   from './footer/footer.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { WelcomeComponent }   from './welcome/welcome.component';
 import { AboutComponent }   from './about/about.component';
+import { NatureComponent }   from './nature/nature.component';
 
 const appRoutes: Routes = [
   {
@@ -16,6 +17,11 @@ const appRoutes: Routes = [
     {
         path: 'about',
         component: AboutComponent
+      },
+
+      {
+        path: 'nature',
+        component: NatureComponent
       }
 ];
 
