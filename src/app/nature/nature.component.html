@@ -1,20 +1,22 @@
 <h1>Inspired by Nature</h1>
 
 <div class="row">
-  <div class="column">
+  <div class="col-sm-6">
   <div *ngFor="let painting of paintings; let i = index" >
     <div *ngIf="i % 2 === 0">
-      <h3><em>{{painting.title}}</em> by {{painting.artist}}</h3>
-      <img class='nature-img' src={{painting.img}} alt="" (click)="goToDetailPage(painting)">
+        <h3><em>{{painting.title}}</em> by {{painting.artist}}</h3>
+        <img class='nature-img' src={{painting.img}} alt="" (click)="goToDetailPage(painting)">
+      </div>
     </div>
   </div>
-  <div class="column">
+  <div class="col-sm-6">
     <div *ngFor="let painting of paintings; let i = index" (click)="goToDetailPage(painting)">
       <div *ngIf="i % 2 === 1">
         <h3><em>{{painting.title}}</em> by {{painting.artist}}</h3>
         <img class='nature-img' src={{painting.img}} alt="">
       </div>
     </div>
+</div>
 </div>
 <!-- <div class="row"> 
     <img src="../../assets/natureImgs/nature1.JPG" style="width:100%">
