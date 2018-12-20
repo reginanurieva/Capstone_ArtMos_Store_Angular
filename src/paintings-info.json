@@ -1,0 +1,17 @@
+{ "paintings": [{
+    "title": " Trees",
+    "artist": "Andrei Mosanu",
+    "price": "190.00",
+    "id": "1"
+    }, {
+    "title": "Village life",
+    "artist": "Andrei Mosanu",
+    "price": "sold out",
+    "id": "2"
+      }, {
+    "title": "Her",
+    "artist": "Andrei Mosanu",
+    "price": "300.00",
+    "id": "3"
+  }]
+}

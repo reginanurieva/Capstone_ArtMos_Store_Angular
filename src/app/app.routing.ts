@@ -7,6 +7,7 @@ import { TopbarComponent } from './topbar/topbar.component';
 import { WelcomeComponent }   from './welcome/welcome.component';
 import { AboutComponent }   from './about/about.component';
 import { NatureComponent }   from './nature/nature.component';
+import { PaintingDetailsComponent} from './painting-details/painting-details.component'
 
 const appRoutes: Routes = [
   {
@@ -22,6 +23,10 @@ const appRoutes: Routes = [
       {
         path: 'nature',
         component: NatureComponent
+      },
+      {
+        path: 'painting/:id',
+        component: PaintingDetailsComponent
       }
 ];
 
